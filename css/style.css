@@ -1,0 +1,283 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* Navigation bar */
+#topmenu {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0 5% 0px 5%;
+  background-color: rgba(0,0,0,0.85);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+#dropmenu{
+  display: none;
+  list-style-type: none;
+  margin: 0px;
+  padding: 60px 5% 5px 0px;
+  background-color: rgba(1,1,1,0.85);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+  text-align: right;
+}
+
+.listmenu {
+  display: none;
+  float: right;
+}
+
+.listdrop {
+  margin-bottom: 5px;
+}
+
+.listminimenu {
+  display: block;
+  float: right;
+  padding: 14px 16px;
+}
+
+li a {
+  color: #DDD;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0px;
+}
+
+li a:hover {
+  background-color: rgba(255, 153, 51,0.95);
+  color: #000;
+  text-decoration: none;
+}
+li.listdrop a:hover{
+  background: none;
+  color: rgba(255, 153, 51);
+  text-decoration: none;
+}
+
+.listbrand{
+  float:left;
+}
+
+#topbrand {
+  display: block;
+  color: #DDD;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+#navbutton{
+  background: none;
+  border: none;
+  color: #DDD;
+}
+#navbutton:active, #navbutton:focus{
+  outline: 0;
+}
+
+
+/* Responsive: Navbar for large screens >768px */
+@media (min-width: 768px) {
+li a {
+  display: block;
+  }
+.listbrand{
+  float:left;
+  }
+.listmenu{
+  display: block;
+}
+.listminimenu{
+  display: none;
+}
+#dropmenu{
+  display: none; 
+  }
+}
+
+
+
+
+
+
+#imglogo{
+  position: fixed;
+  height: 40px;
+  margin: 7px 0px 0px 50px;
+  z-index: 10;
+}
+#imgmoi{
+  height: 165px;
+  margin: 0px 0px 0px 0px;
+  z-index: 20;
+}
+
+
+.blocpremier{
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 200px 0px 0px 0px;
+  background-color: #EEE;
+  z-index: 50;
+}
+.blocclair{
+  width: 100%;
+  margin: -20px 0px 0px 0px;
+  padding: 150px 0px 0px 0px;
+  background-color: #EEE;
+  z-index: 50;
+}
+.blocfonce{
+  width: 100%;
+  margin: -20px 0px -20px 0px;
+  padding-top: 95px;
+  background-color: #222;
+  z-index: 50;
+}
+.blocfin{
+  width: 100%;
+  margin: -20px 0px 0px 0px;
+  padding-top: 95px;
+  background-color: #222;
+  z-index: 50;
+}
+
+
+
+
+.loremnoir {
+  color: #222;
+  width: 800px;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+.loremblanc {
+  color: #EEE;
+  width: 800px;
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+#copyright{
+  text-align: right;
+  color: white;
+  font-size: 0.7em;
+  margin: -50px 200px 5px 0px;
+}
+
+#btnstart{
+  position: fixed;
+  z-index: -5;
+  display: block;
+  top: 50%;
+  left: 50%;
+  border-radius: 30px;
+}
+
+body{
+  background-color: #fff2e6;
+}
+
+.headblank{
+  min-width: 100%;
+}
+
+
+/* CSS image de page d'accueil */
+header.accueil {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  background-image: url("https://img11.hostingpics.net/pics/445578Start.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-size: 2em;
+  z-index: 0;
+}
+  
+header.accueil .header-content {
+  position: relative;
+  width: 100%;
+  padding: 150px 15px 150px;
+  text-align: center;
+}
+header.accueil .header-fleche {
+  display: none;
+  position: relative;
+  width: 100%;
+  padding: 0px 15px 0px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+  @media (min-width: 768px) {
+  header.accueil {
+    height: 100%;
+    min-height: 800px;
+  }
+ header.accueil .header-content {
+    position: absolute;
+    top: 40%;
+    padding: 0 50px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+     header.accueil .header-fleche {
+    display: block;
+    position: absolute;
+    top: 98%;
+    padding: 0 50px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  }
+/* FIN CSS image de page d'accueil */
+
+
+.blink_text {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+
+     color: rgba(255, 153, 51);
+    }
+
+    @-moz-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+a.blink_text:hover {
+  color: rgba(255, 153, 51);
+  text-decoration: none;
+    }
