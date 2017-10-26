@@ -1,8 +1,9 @@
 
+
 function menudropoff() {
-      $("#dropmenu").slideUp();
+      $("#navdrop").slideUp();
 }
 
-$("#navbutton").click(function(){
-    $("#dropmenu").slideToggle();
+$("#navbtn").click(function(){
+    $("#navdrop").slideToggle();
 });

@@ -7,6 +7,7 @@
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
 
@@ -14,64 +15,224 @@
 </head>
 
 <body>
-  <!-- URL photos:
+  
+
+<!-------    URL photos:   --------
 profil: https://img11.hostingpics.net/pics/782074ProfilNBcadre.png
 
--->
+ampoule: https://img11.hostingpics.net/pics/339830StockSnapLE8PCMM4GS.jpg
 
-<ul id="topmenu">
+https://img11.hostingpics.net/pics/505307logo.png
+https://img11.hostingpics.net/pics/495216logor.png
+
+---------------------------------->
+
+
+<!------    Google fonts:   ------->
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro" rel="stylesheet">
+
+
+
+<!------    Navbar:   ------->
+<ul id="navbar">
     <li class="listbrand"><p id="topbrand">MEHDI BOUAZIZ</p></li>
-    <li class="listminimenu"><button class="dropdown-toggle" type="button" id="navbutton" data-toggle="dropdown" onclick="menudrop()"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button> </li>
-  <li class="listmenu"><a href="#about">CONTACT</a></li>
-  <li class="listmenu"><a href="#portfolio">PORTFOLIO</a></li>
-  <li class="listmenu"><a href="#bio">BIO</a></li>
-  <li class="listmenu"><a href="#home">HOME</a></li>
+    <li class="listminimenu"><button id="navbtn" class="dropdown-toggle" type="button"  data-toggle="dropdown"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button> </li>
+  <li class="navlist"><a href="#contact">CONTACT</a></li>
+  <li class="navlist"><a href="#about">ABOUT</a></li>
+  <li class="navlist"><a href="#work">WORK</a></li>
+  <li class="navlist"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
 </ul>
 
-<ul id="dropmenu" onclick="menudropoff()">
-  <li class="listdrop"><a href="#about">CONTACT</a></li>
-  <li class="listdrop"><a href="#portfolio">PORTFOLIO</a></li>
-  <li class="listdrop"><a href="#bio">BIO</a></li>
-  <li class="listdrop"><a href="#home">HOME</a></li>
+<ul id="navdrop" onclick="menudropoff()">
+  <li class="navdroplist"><a href="#home">HOME</a></li>
+  <li class="navdroplist"><a href="#work">WORK</a></li>
+  <li class="navdroplist"><a href="#about">ABOUT</a></li>
+  <li class="navdroplist"><a href="#contact">CONTACT</a></li>
 </ul>
 
  <a name="home">
+<!------    END Navbar   ------->
 
 
-   <header class="accueil">
-     <div class="header-content">
-       <img src="https://img11.hostingpics.net/pics/782074ProfilNBcadre.png" id="imgmoi" alt="Portait">
-       <p>Hello World<i class="blink_text">_</i></p>
-     </div>
-     <div class="header-fleche">
-       <a href="#bio" class="blink_text">
-         <i class="fa fa-angle-double-down" aria-hidden="true"></i>
-</a>
-     </div>
-   </header>
    
+<!------    COVER:   ------->
+<header class="cover">
+    <div class="cover-content">
+       <p>&gt Hello, World!<i class="blink_text">_</i></p>
+    </div>
+    <div class="cover-arrow">
+       <a href="#about" class="blink_text">
+         <i class="fa fa-angle-down" aria-hidden="true"></i>
+       </a>
+    </div>
+</header>
+<!------    END COVER:   ------->
+
    
-
-<section id="bio" class="blocpremier"> 
-  <div align="center">
-  <p class="loremnoir">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo urna at rhoncus maximus. Phasellus semper, eros eget ullamcorper faucibus, arcu augue dapibus lacus, ut tincidunt augue ex id neque. Integer accumsan ipsum quis nunc sagittis, eu vulputate sapien malesuada. Proin euismod nunc ac luctus ornare. Fusce sed leo volutpat, semper leo ut, vehicula eros. Donec vestibulum quis tortor vitae dictum. Quisque varius vulputate dui. Donec id leo convallis, luctus lacus sit amet, consequat diam. Pellentesque metus velit, venenatis id eleifend in, sodales sed massa. Integer fermentum fermentum suscipit.<br><br>
-</p>
+<!------    WORK:   ------->
+<section id="work" class="sec-work"> 
   
-   </section>
-
-
-
-<a name="portfolio">
-<div align="center" class="blocfin">
-<p class="loremblanc">
-  Nam aliquam justo nulla, ac porta magna auctor id. Cras eu lacinia massa. Suspendisse lorem ipsum, commodo vitae quam sit amet, lobortis ullamcorper dui. Donec orci felis, aliquam non eros ut, bibendum volutpat leo. Etiam mollis nunc tellus. Integer rutrum dapibus porta. Aliquam erat volutpat. Aliquam quam lacus, eleifend quis auctor vel, laoreet ac augue. Donec gravida ullamcorper egestas. Aliquam accumsan laoreet urna vitae scelerisque. Nulla id pharetra ipsum, eu mollis est. Etiam tincidunt leo sit amet mauris varius lobortis. Nam eget lacinia leo. Aliquam et porttitor nisl. Duis id sem elit. Vivamus blandit iaculis laoreet.<br><br>
-</p>
-</div>
+  <div class="sec-title text-center">Portfolio</div>
+  <hr>
   
-<p id="copyright">&copy; 2017, Mehdi Bouaziz</p>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <div class="container-fluid">
+    <div class="row">
+      
+      <div class="col-lg-4 col-sm-6 col-md-6 text-center">
+        <div class="projet">
+          <div class="projet-card">   
+        <div class="projet-img"></div>
+              <div class="middle">
+                <a href="#">
+                <div class="projet-view">VIEW</div> </a>
+              </div>
+          </div>
+          <div class="projet-titre">first project</div>
+          <div class="projet-p">A soon to be released projetc.</div>
+          
+      </div>
+    </div> 
+      
+      <div class="col-lg-4 col-sm-6 col-md-6 text-center">
+        <div class="projet">
+          <div class="projet-card">   
+            
+              <div class="projet-img"></div>
+              <div class="middle">
+                <a href="#">
+                <div class="projet-view">VIEW</div> </a>
+              </div>
+           
+          </div>
+          <div class="projet-titre">Another project</div>
+          <div class="projet-p">A soon to be released projetc.</div>
+      </div>
+    </div> 
+      
+      
+      <div class="col-lg-4 col-sm-6 col-md-6 text-center">
+        <div class="projet">
+          <div class="projet-card">   
+             <div class="projet-img"></div>
+              <div class="middle">
+                <a href="#">
+                <div class="projet-view">VIEW</div> </a>
+              </div>
+          </div>          
+          <div class="projet-titre">Another project</div>
+          <div class="projet-p">A soon to be released projetc.</div>
+      </div>
+    </div> 
+      
+      <div class="col-lg-4 col-sm-6 col-md-6 text-center">
+        <div class="projet">
+          <div class="projet-card">   
+            <div class="projet-img"></div>
+              <div class="middle">
+                <a href="#">
+                <div class="projet-view">VIEW</div> </a>
+              </div>
+          </div>
+          <div class="projet-titre">Another project</div>
+          <div class="projet-p">A soon to be released projetc.</div>
+      </div>
+    </div> 
+      
+      
+      <div class="col-lg-4 col-sm-6 col-md-6 text-center">
+        <div class="projet">
+          <div class="projet-card">   
+           <div class="projet-img"></div>
+              <div class="middle">
+                <a href="#">
+                <div class="projet-view">VIEW</div> </a>
+              </div>
+          </div>
+          <div class="projet-titre">Another project</div>
+          <div class="projet-p">A soon to be released projetc.</div>
+      </div>
+    </div> 
+      
+      
+      <div class="col-lg-4 col-sm-6 col-md-6 text-center">
+        <div class="projet">
+          <div class="projet-card">   
+         <div class="projet-img"></div>
+              <div class="middle">
+                <a href="#">
+                <div class="projet-view">VIEW</div> </a>
+              </div>
+          </div>
+          <div class="projet-titre">Another project</div>
+          <div class="projet-p">A soon to be released projetc.</div>
+      </div>
+    </div> 
+      
+            
+  </div>
+  </div>
+</section>
+<!------    END WORK:   ------->
+
+
+<!------    ABOUT ME:   ------->
+<section id="about" class="sec-about">
+  <div class="container">
+    <div class="sec-title text-center">About Me</div>
+    <hr>
+ 
+      <div id="profile" class="row align-items-center">
+       <div class="col-lg-4 col-sm-4 col-md-4 text-center">
+         <img class="img-me" src="https://img11.hostingpics.net/pics/782074ProfilNBcadre.png" alt="that's me">
+        </div>
+
+
+       <div class="col-lg-8 col-sm-8 col-md-8">
+        <div class="text-me">
+          Hey! I'm Mehdi, a 27 years old Project Engineer based in Krakow, Poland.</div>
+         <div class="text-me">
+           I have a passion for design, creation, and puzzles. This is why I love coding and developping websites.</div>
+         <div class="text-me">
+           I'm currently working towards a Front-End certification on freeCodeCamp.</div>
+         <div class="text-me">
+           When coding, I focus on offering a great user experience, fully responsive, thanks to clean code and polished design. </div>
+         </div>
+         
+        </div>   
+    
+    <div class="text-center skills">
+      <i class="ico-skill devicon-html5-plain-wordmark"></i>
+      <i class="ico-skill devicon-css3-plain-wordmark"></i>
+      <i class="ico-skill devicon-bootstrap-plain-wordmark"></i>
+      <i class="ico-skill devicon-jquery-plain-wordmark"></i>
+      <i class="ico-skill devicon-photoshop-line"></i>
+
+
+    </div>
+    </div>
+  </div>
+  </section>
+  
+<!------    END ABOUT ME:   ------->
+
+  
+<!------    CONTACT:   ------->
+<section id="contact" class="bloc-contact">
+  
+
+  
+  </section>  
+<!------    END CONTACT:   ------->
+
+  
+  
+<!------    BOTTOM BAR:   -------
+<div align="center">
+<p id="copyright">Copyright 2017 Mehdi Bouaziz.</p>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 
     <script  src="js/index.js"></script>
 
