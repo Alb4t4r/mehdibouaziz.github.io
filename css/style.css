@@ -6,6 +6,7 @@ html {
 body{
   background-color: #111;
 }
+<<<<<<< HEAD
 
 .sec-title{
   color: #222;
@@ -24,6 +25,26 @@ hr{
 
 
 
+=======
+
+.sec-title{
+  color: #222;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+hr{
+  /* Used for underlining sec-title */
+  width:40px;
+  height:3px;
+  background-color: #222;
+  content:"";
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+>>>>>>> master
 /******** Navbar ********/
 #navbar {
   list-style-type: none;
@@ -37,7 +58,11 @@ hr{
 }
 
 #navdrop{
+<<<<<<< HEAD
   display: block;
+=======
+  display: none;
+>>>>>>> master
   list-style-type: none;
   margin: 0px;
   padding: 60px 5% 5px 0px;
@@ -123,9 +148,12 @@ li a {
 .listminimenu{
   display: block;
 }
+<<<<<<< HEAD
 #navdrop{
   display: none; 
   }
+=======
+>>>>>>> master
 }
 
 /******** END NAVBAR ********/
@@ -146,7 +174,10 @@ header.cover {
   color: white;
   font-size: 1.5em;
   font-family: 'Source Code Pro', monospace;
+<<<<<<< HEAD
   z-index: -10;
+=======
+>>>>>>> master
 }
 
     header.cover .cover-content {
@@ -199,19 +230,29 @@ header.cover {
 .sec-about{
   width: 100%;
   margin: -20px 0px 0px 0px;
+<<<<<<< HEAD
   padding: 75px 0px 0px 0px;
+=======
+  padding: 75px 0px 75px 0px;
+>>>>>>> master
   background-color: #DDD;
   z-index: 50;
 }
-.blocfonce{
+.sec-skills{
   width: 100%;
   margin: -20px 0px 0px 0px;
+<<<<<<< HEAD
   padding-top: 95px;
   background-color: #DDD;
+=======
+  padding: 75px 0px 75px 0px;
+  background-color: #CCC;
+>>>>>>> master
   z-index: 50;
 }
-.blocfin{
+.sec-contact{
   width: 100%;
+<<<<<<< HEAD
   margin: -20px 0px 0px 0px;
   padding: 95px 0px 100px 0px;
   background-color: #DDD;
@@ -221,6 +262,197 @@ header.cover {
 
 
 
+=======
+  margin: -10px 0px 0px 0px;
+  padding: 10px 0px 10px 0px;
+  background-color: #222;
+  z-index: 50;
+}
+/******** END SECTIONS ********/
+
+
+
+
+
+/********* WORK **********/
+.p-0{
+margin: 0 !important;
+padding: 0px !important;
+}
+
+.projet{
+  margin: 0 0 50px 0;
+  height: auto;
+}
+
+.projet-titre{
+  color: #222;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  margin: 8px 0px 0px 0px;
+  text-transform: uppercase;
+}
+
+.projet-p{
+  color: #333;
+  text-align: center;
+  margin: 0 0 0 0;
+  font-size: 0.8;
+}
+
+.projet-card{
+  position: relative;
+}
+
+.projet-img{
+  width: 100%;
+  height: auto;
+  padding: 50% 0 0;
+  opacity: 0.9;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  backface-visibility: hidden;
+  background-image: url("https://img11.hostingpics.net/pics/620173marioprojet404.gif");
+  transition: 0.3s ease-in-out;
+}
+
+.middle {
+  position: absolute;
+  left: 94%;
+  top: 12%;
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+
+
+.middle a {
+  text-decoration: none;
+}
+
+
+.projet-card:hover .middle{
+  opacity: 1;
+}
+
+.projet_view_text{
+    display: none;
+    background-color: #111;
+    color: #DDD;
+    font-size: 1em;
+    padding: 10px 0px;
+    width: 150px;
+    text-decoration: none;
+    border: 1px solid #111;
+}
+
+.projet_view_logo{
+  display: block;
+  color: #FFF;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    .middle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .projet_view_text{
+    display: block;
+    background-color: #111;
+    color: #DDD;
+    font-size: 1em;
+    padding: 10px 0px;
+    width: 150px;
+    text-decoration: none;
+  } 
+  .projet-card:hover .projet-img{
+    opacity: 0.1;
+  }
+  .projet_view_logo{
+    display: none;
+  }
+}
+}
+/********* END WORK **********/
+
+/********* ABOUT ME **********/
+#profile{
+ margin-bottom: 20px;  
+}
+
+.text-me{
+  margin-top: 10px;
+  padding: 0 10%;
+}
+@media (min-width: 576px){.text-me{padding:0;}}
+
+.img-me{width: 40%;}
+@media (min-width: 576px) {.img-me{ width: 100%; }}
+@media (min-width: 768px) {.img-me{ width: 100%; }}
+@media (min-width: 992px) {.img-me{ width: 70%; }}
+@media (min-width: 1200px) {.img-me{ width: 70%; }}
+
+.skillset{
+ padding-bottom: 0px;  
+}
+
+.ico-skill{
+  margin-bottom: 20px;
+  margin: 0 15px;
+  font-size: 4em;
+  line-height: 150%;
+}
+
+.social{
+  color: #222;
+  font-size: 2.5em;
+  margin: 25px 10px 0 10px;
+}
+.social:hover{
+  color: rgb(255, 153, 51);
+}
+/******* END ABOUT ME ********/
+
+/*******    FOOTER   ********/
+#footer{
+  list-style-type: none;
+  width: 100%;
+  text-align: right;
+}
+.footer_right{
+  float: right;
+  color: #CCC;
+  font-size: 0.7em;
+  margin: 0 3% 0 0;
+}
+.footer_left{
+  float: left;
+  color: #CCC;
+  font-size: 0.7em;
+  margin: 0 0 0 3%;
+}
+/*******  END FOOTER ********/
+
+
+
+/******* BLINK ANIMATIONS ********/
+>>>>>>> master
 .blink_text {
     color:rgb(255, 153, 51);
     animation:1s blinker linear infinite;
@@ -250,6 +482,7 @@ header.cover {
       color: rgb(255, 153, 51);
       text-decoration: none;
         }
+<<<<<<< HEAD
 
 /********* WORK **********/
 .p-0{
@@ -369,3 +602,5 @@ padding: 0px !important;
   font-size: 0.7em;
   margin: -40px 0px 5px 0px;
 }
+=======
+>>>>>>> master

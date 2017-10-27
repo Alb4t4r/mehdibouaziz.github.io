@@ -1,4 +1,8 @@
+$("#navbtn").click(function(){
+    $("#navdrop").slideToggle();
+});
 
+<<<<<<< HEAD
 
 function menudropoff() {
       $("#navdrop").slideUp();
@@ -6,4 +10,8 @@ function menudropoff() {
 
 $("#navbtn").click(function(){
     $("#navdrop").slideToggle();
+=======
+$("#navdrop").click(function(){
+    $("#navdrop").slideUp();
+>>>>>>> master
 });
