@@ -2,12 +2,13 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio-MehdiBouaziz</title>
+  <title>CADfolio</title>
   
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
 
@@ -27,7 +28,7 @@ https://img11.hostingpics.net/pics/495216logor.png
 
 <!------    Google fonts:   ------->
 <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
 
 
 <!------    Navbar:   ------->
@@ -35,7 +36,7 @@ https://img11.hostingpics.net/pics/495216logor.png
     <li class="listbrand"><p id="topbrand">MEHDI BOUAZIZ</p></li>
     <li class="listminimenu"><button id="navbtn" class="dropdown-toggle" type="button"  data-toggle="dropdown" onclick="menudrop()"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button> </li>
   <li class="navlist"><a href="#contact">CONTACT</a></li>
-  <li class="navlist"><a href="#about">ABOUT</a></li>
+  <li class="navlist"><a href="#about">ABOUT ME</a></li>
   <li class="navlist"><a href="#work">WORK</a></li>
   <li class="navlist"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
 </ul>
@@ -55,12 +56,12 @@ https://img11.hostingpics.net/pics/495216logor.png
 <!------    COVER:   ------->
 <header class="cover">
     <div class="cover-content">
-       <p>&gt Hello, World!<i class="blink_text">_</i></p>
+       <p>&gt Hi! I'm Mehdi, welcome to my portfolio<i class="blink_text">_</i></p>
     </div>
     <div class="cover-arrow">
      
       <a href="#work" class="blink_text">
-        <i class="fa fa-angle-down" aria-hidden="true"></i>
+        <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
        </a>
       
     </div>
@@ -80,16 +81,16 @@ https://img11.hostingpics.net/pics/495216logor.png
       <div class="col-lg-4 col-sm-6 col-md-6 text-center">
         <div class="projet">
           <div class="projet-card">   
-        <div class="projet-img"></div>
+        <div class="iphone-img"></div>
               <div class="middle">
-                <a href="#">
+                <a onclick="overon1()">
                 <div class="projet_view_text">VIEW</div>
                 <div class="projet_view_logo"><i class="fa fa-codepen" aria-hidden="true"></i></div>
                 </a>
               </div>
           </div>
-          <div class="projet-titre">first project</div>
-          <div class="projet-p">A soon to be released project.</div>
+          <div class="projet-titre">iPhone</div>
+          <div class="projet-p">AutoDesk Inventor</div>
           
       </div>
     </div> 
@@ -98,17 +99,17 @@ https://img11.hostingpics.net/pics/495216logor.png
         <div class="projet">
           <div class="projet-card">   
             
-              <div class="projet-img"></div>
+              <div class="spin-img"></div>
               <div class="middle">
-                <a href="#">
+                <a onclick="overon2()">
                 <div class="projet_view_text">VIEW</div>
                 <div class="projet_view_logo"><i class="fa fa-codepen" aria-hidden="true"></i></div>
                 </a>
               </div>
            
           </div>
-          <div class="projet-titre">Another project</div>
-          <div class="projet-p">A soon to be released project.</div>
+          <div class="projet-titre">Spinner</div>
+          <div class="projet-p">AutoDesk Inventor</div>
       </div>
     </div> 
       
@@ -116,49 +117,32 @@ https://img11.hostingpics.net/pics/495216logor.png
       <div class="col-lg-4 col-sm-6 col-md-6 text-center">
         <div class="projet">
           <div class="projet-card">   
-             <div class="projet-img"></div>
+             <div class="zac-img"></div>
               <div class="middle">
-                <a href="#">
+                <a onclick="overon3()">
                 <div class="projet_view_text">VIEW</div>
                 <div class="projet_view_logo"><i class="fa fa-codepen" aria-hidden="true"></i></div>
                 </a>
               </div>
           </div>          
-          <div class="projet-titre">Another project</div>
-          <div class="projet-p">A soon to be released project.</div>
+          <div class="projet-titre">ZAC de Crane</div>
+          <div class="projet-p">AutoCAD</div>
       </div>
     </div> 
       
       <div class="col-lg-4 col-sm-6 col-md-6 text-center">
         <div class="projet">
           <div class="projet-card">   
-            <div class="projet-img"></div>
+            <div class="arman-img"></div>
               <div class="middle">
-                <a href="#">
+                <a onclick="overon4()">
                 <div class="projet_view_text">VIEW</div>
                 <div class="projet_view_logo"><i class="fa fa-codepen" aria-hidden="true"></i></div>
                 </a>
               </div>
           </div>
-          <div class="projet-titre">Another project</div>
-          <div class="projet-p">A soon to be released project.</div>
-      </div>
-    </div> 
-      
-      
-      <div class="col-lg-4 col-sm-6 col-md-6 text-center">
-        <div class="projet">
-          <div class="projet-card">   
-           <div class="projet-img"></div>
-              <div class="middle">
-                <a href="#">
-                <div class="projet_view_text">VIEW</div>
-                <div class="projet_view_logo"><i class="fa fa-codepen" aria-hidden="true"></i></div>
-                </a>
-              </div>
-          </div>
-          <div class="projet-titre">Another project</div>
-          <div class="projet-p">A soon to be released project.</div>
+          <div class="projet-titre">Villa Armand</div>
+          <div class="projet-p">AutoCAD</div>
       </div>
     </div> 
       
@@ -166,20 +150,19 @@ https://img11.hostingpics.net/pics/495216logor.png
       <div class="col-lg-4 col-sm-6 col-md-6 text-center">
         <div class="projet">
           <div class="projet-card">   
-         <div class="projet-img"></div>
+           <div class="train-img"></div>
               <div class="middle">
-                <a href="#">
+                <a onclick="overon5()">
                 <div class="projet_view_text">VIEW</div>
                 <div class="projet_view_logo"><i class="fa fa-codepen" aria-hidden="true"></i></div>
                 </a>
               </div>
           </div>
-          <div class="projet-titre">Another project</div>
-          <div class="projet-p">A soon to be released project.</div>
+          <div class="projet-titre">Train d'atterrissage</div>
+          <div class="projet-p">CATIA v5</div>
       </div>
     </div> 
-      
-            
+     
   </div>
   </div>
 </section>
@@ -187,10 +170,10 @@ https://img11.hostingpics.net/pics/495216logor.png
 
    
    
-<!------     SKILLS:   ------->
+<!------     SKILLS:   ---
    
    
-<!------    END SKILLS:   ------->
+ 
 <section id="skills" class="sec-skills">
     <div class="container">
     <div class="sec-title text-center">Skills</div>
@@ -205,6 +188,8 @@ https://img11.hostingpics.net/pics/495216logor.png
     </div>
       
    </section>  
+--    END SKILLS:  ------->
+
 <!------    ABOUT ME:   ------->
 <section id="about" class="sec-about">
   <div class="container">
@@ -219,13 +204,13 @@ https://img11.hostingpics.net/pics/495216logor.png
 
        <div class="col-lg-8 col-sm-8 col-md-8">
         <div class="text-me">
-          Hey! I'm Mehdi, a 27-year-old Project Engineer based in Krakow, Poland.</div>
+          Hey! I'm Mehdi, a 27-year-old Mechanical Engineer based in Krakow, Poland.</div>
          <div class="text-me">
-           I have a passion for design, creation, and puzzles. This is why I love coding and developping websites.</div>
+           I have a passion for design, creation, and puzzles. This is why I love CAD design.</div>
          <div class="text-me">
-           I'm currently working towards a Front-End certification on freeCodeCamp.</div>
+           I'm a persistent problem solver and I have consistently completed my projects in time while making customer satisfaction my top priority. I can apply my self-taught programming skills to develop tools to improve the performance of my team and promote clear communication.</div>
          <div class="text-me">
-           When coding, I focus on offering a great user experience, fully responsive, thanks to clean code and polished design. </div>
+           I'm currently looking for a job, so give me a call!</div>
          </div>
          
         </div>   
@@ -233,11 +218,14 @@ https://img11.hostingpics.net/pics/495216logor.png
     
     <div class="row align-items-center justify-content-center">    
 
-     
+     <a href="https://drive.google.com/open?id=1zQCG5E42AUiOMa4nAtjoC2NGHIdFfvsV"><i class="social fa fa-file-pdf-o" aria-hidden="true"></i></a>
      <a href="https://www.linkedin.com/in/mehdi-bouaziz/"><i class="social fa fa-linkedin-square" aria-hidden="true"></i></a>
      <a href="https://www.facebook.com/mehdi.bouaz"><i class="social fa fa-facebook-square" aria-hidden="true"></i></a>
      <a href="https://github.com/mehdibouaziz"><i class="social fa fa-github-square" aria-hidden="true"></i></a>
      <a href="mailto:mehdi.bouaziz@hotmail.fr"><i class="social fa fa-envelope-square" aria-hidden="true"></i></a>
+      
+     
+
     </div>
     
     </div>
@@ -259,9 +247,243 @@ https://img11.hostingpics.net/pics/495216logor.png
   
   </section>  
 <!------    END CONTACT:   ------->
+
+  
+  
+<!------    OVER IPHONE:   ------->
+   <div id="autocad1">
+  <button id="close1" onclick="overoff1()"><i class="fa fa-times fa-lg blink_text" aria-hidden="true"></i></button>
+  <div  class="container">
+  <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel1" data-slide-to="1"></li>
+      <li data-target="#myCarousel1" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="https://img4.hostingpics.net/pics/124460iPhoneFace.jpg" alt="iphone face" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://img4.hostingpics.net/pics/796019iPhoneBack.jpg" alt="iphone back" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="https://img4.hostingpics.net/pics/918959iPhoneBottom.jpg" alt="iphone bottom" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+   
+   
+   <!------    OVER SPIN:   ------->
+   <div id="autocad2">
+  <button id="close2" onclick="overoff2()"><i class="fa fa-times fa-lg blink_text" aria-hidden="true"></i></button>
+  <div  class="container">
+  <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="https://img4.hostingpics.net/pics/156092Spinner.jpg" alt="spinner" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+
+  </div>
+</div>
+</div>
+   
+   
+   
+   
+   <!------    OVER ZAC:   ------->
+   <div id="autocad3">
+  <button id="close3" onclick="overoff3()"><i class="fa fa-times fa-lg blink_text" aria-hidden="true"></i></button>
+  <div  class="container">
+  <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel3" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="https://img4.hostingpics.net/pics/809789zacfacade.jpg" alt="zac facade" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://img4.hostingpics.net/pics/152425zacfondation.jpg" alt="zac fondations" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel3" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel3" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+   
+      <!------    OVER ARMAN:   ------->
+   <div id="autocad4">
+  <button id="close4" onclick="overoff4()"><i class="fa fa-times fa-lg blink_text" aria-hidden="true"></i></button>
+  <div  class="container">
+  <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel4" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="https://img4.hostingpics.net/pics/610100armandrebar.jpg" alt="armand rebar" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://img4.hostingpics.net/pics/668063armanddetail.jpg" alt="armand deatil" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel4" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel4" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+   
+   
+   <!------    OVER TRAIN:   ------->
+   <div id="autocad5">
+  <button id="close5" onclick="overoff5()"><i class="fa fa-times fa-lg blink_text" aria-hidden="true"></i></button>
+  <div  class="container">
+  <div id="myCarousel5" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel5" data-slide-to="1"></li>
+      <li data-target="#myCarousel5" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="https://img4.hostingpics.net/pics/851268CoupeFace.jpg" alt="vue face" style="height:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://img4.hostingpics.net/pics/630300Vueisoarbre.jpg" alt="vue iso arbre" style="height:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="https://img4.hostingpics.net/pics/403553Vueiso.jpg" alt="vue iso" style="height:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel5" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel5" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 
     <script  src="js/index.js"></script>
 

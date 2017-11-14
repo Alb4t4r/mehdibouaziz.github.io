@@ -135,15 +135,15 @@ header.cover {
   position: relative;
   width: 100%;
   min-height: auto;
-  background-image: url("https://img11.hostingpics.net/pics/328217StockSnapLE8PCMM4GS2.jpg");
+  background-image: url("https://img4.hostingpics.net/pics/59764120170503072920.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white;
-  font-size: 1.5em;
-  font-family: 'Source Code Pro', monospace;
+  color: black;
+  font-size: 3em;
+font-family: 'Amatic SC', cursive;
 }
 
     header.cover .cover-content {
@@ -167,7 +167,7 @@ header.cover {
       }
      header.cover .cover-content {
         position: absolute;
-        top: 80%;
+        top: 75%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -177,7 +177,7 @@ header.cover {
        display: block;
        position: absolute;
        top: 100%;
-       padding: 0 50px 30px 50px;
+       padding: 0 50px 50px 50px;
        -webkit-transform: translateY(-50%);
        -ms-transform: translateY(-50%);
        transform: translateY(-50%);
@@ -244,14 +244,14 @@ padding: 0px !important;
   color: #333;
   text-align: center;
   margin: 0 0 0 0;
-  font-size: 0.8;
+  font-size: 0.8em;
 }
 
 .projet-card{
   position: relative;
 }
 
-.projet-img{
+.iphone-img{
   width: 100%;
   height: auto;
   padding: 50% 0 0;
@@ -260,9 +260,58 @@ padding: 0px !important;
   background-repeat: no-repeat;
   background-position: center center;
   backface-visibility: hidden;
-  background-image: url("https://img11.hostingpics.net/pics/620173marioprojet404.gif");
+  background-image: url("https://img4.hostingpics.net/pics/844808iPhoneBack.png");
   transition: 0.3s ease-in-out;
 }
+.spin-img{
+  width: 100%;
+  height: auto;
+  padding: 50% 0 0;
+  opacity: 0.9;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  backface-visibility: hidden;
+  background-image: url("https://img4.hostingpics.net/pics/786751Spinner.png");
+  transition: 0.3s ease-in-out;
+}
+.zac-img{
+  width: 100%;
+  height: auto;
+  padding: 50% 0 0;
+  opacity: 0.9;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  backface-visibility: hidden;
+  background-image: url("https://img4.hostingpics.net/pics/568314zac.png");
+  transition: 0.3s ease-in-out;
+}
+.arman-img{
+  width: 100%;
+  height: auto;
+  padding: 50% 0 0;
+  opacity: 0.9;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  backface-visibility: hidden;
+  background-image: url("https://img4.hostingpics.net/pics/416835armand.png");
+  transition: 0.3s ease-in-out;
+}
+.train-img{
+  width: 100%;
+  height: auto;
+  padding: 50% 0 0;
+  opacity: 0.9;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  backface-visibility: hidden;
+  background-image: url("https://img4.hostingpics.net/pics/210111CoupeFace.png");
+  transition: 0.3s ease-in-out;
+}
+
 
 .middle {
   position: absolute;
@@ -280,6 +329,9 @@ padding: 0px !important;
 
 .middle a {
   text-decoration: none;
+}
+.middle a:hover{
+  cursor:pointer;
 }
 
 
@@ -371,7 +423,7 @@ padding: 0px !important;
   margin: 25px 10px 0 10px;
 }
 .social:hover{
-  color: rgb(255, 153, 51);
+  color: rgb(255, 128, 0);
 }
 /******* END ABOUT ME ********/
 
@@ -399,7 +451,7 @@ padding: 0px !important;
 
 /******* BLINK ANIMATIONS ********/
 .blink_text {
-    color:rgb(255, 153, 51);
+    color:rgb(255, 128, 0);
     animation:1s blinker linear infinite;
     -webkit-animation:1s blinker linear infinite;
     -moz-animation:1s blinker linear infinite; 
@@ -427,3 +479,150 @@ padding: 0px !important;
       color: rgb(255, 153, 51);
       text-decoration: none;
         }
+
+
+/******* iphone ********/
+#close1{
+  background: none;
+  border: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 102;
+  color: white;
+}
+
+#close1:hover{
+  color: red;
+}
+
+#autocad1{
+  position: fixed;
+  display: none;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+    z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+  padding: 5% 5%;
+}
+
+/******* spin ********/
+#close2{
+  background: none;
+  border: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 102;
+  color: white;
+}
+
+#close2:hover{
+  color: red;
+}
+
+#autocad2{
+  position: fixed;
+  display: none;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+    z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+  padding: 5% 5%;
+}
+
+/******* zac ********/
+#close3{
+  background: none;
+  border: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 102;
+  color: white;
+}
+
+#close3:hover{
+  color: red;
+}
+
+#autocad3{
+  position: fixed;
+  display: none;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+    z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+  padding: 5% 5%;
+}
+
+/******* arman ********/
+#close4{
+  background: none;
+  border: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 102;
+  color: white;
+}
+
+#close4:hover{
+  color: red;
+}
+
+#autocad4{
+  position: fixed;
+  display: none;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+    z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+  padding: 5% 5%;
+}
+
+/******* train ********/
+#close5{
+  background: none;
+  border: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 102;
+  color: white;
+}
+
+#close5:hover{
+  color: red;
+}
+
+#autocad5{
+  position: fixed;
+  display: none;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+    z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+  padding: 5% 5%;
+}
+
