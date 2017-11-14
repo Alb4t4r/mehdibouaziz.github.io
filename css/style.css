@@ -142,14 +142,14 @@ header.cover {
   -o-background-size: cover;
   background-size: cover;
   color: black;
-  font-size: 3em;
-font-family: 'Amatic SC', cursive;
+  font-size: 1.7em;
+  font-family: 'Amatic SC', cursive;
 }
 
     header.cover .cover-content {
       position: relative;
       width: 100%;
-      padding: 270px 0px 30px 0px;
+      padding: 205px 0px 95px 0px;
       text-align: center;
     }
     header.cover .cover-arrow {
@@ -164,6 +164,7 @@ font-family: 'Amatic SC', cursive;
 @media (min-width: 768px) {
      header.cover {
         height: 100vh;
+        font-size: 3em;
       }
      header.cover .cover-content {
         position: absolute;
@@ -352,7 +353,7 @@ padding: 0px !important;
 
 .projet_view_logo{
   display: block;
-  color: #FFF;
+  color: black;
   font-size: 1.2em;
   text-decoration: none;
 }
@@ -397,8 +398,9 @@ padding: 0px !important;
 .text-me{
   margin-top: 10px;
   padding: 0 10%;
+  text-align: justify;
 }
-@media (min-width: 576px){.text-me{padding:0;}}
+@media (min-width: 576px){.text-me{padding:0; text-align:left;}}
 
 .img-me{width: 40%;}
 @media (min-width: 576px) {.img-me{ width: 100%; }}
